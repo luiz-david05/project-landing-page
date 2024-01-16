@@ -1,51 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@300&family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #fff;
+    font-family: 'Nunito', sans-serif;
 }
 
-.header-container {
-    width: 100%;
-    height: 530px;
-    color: #fff;
-    background-color: #1f2937;
-    padding: 20px 0;
+.container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1f2937;
 }
 
-.header {
-    width: 1000px;
-    height: 60px;
+.menu {
+    width: 100%;
+    height: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
     border: 1px solid #fff;
 }
 
 .logo {
     display: flex;
+    width: 20%;
+    font-size: 18px;
+    color: #f9faf8;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
-    color: #f9faf8;
+    margin-left: 5%;
 }
 
 .logo img {
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
 }
 
 .links {
-    width: 400px;
-    border: 1px solid #fff;
     display: flex;
-    justify-content: space-between;
-    font-size: 18px;
+    width: 20%;
+    justify-content: space-around;
     align-items: center;
+    margin-right: 10%;
 }
 
-.contact {
+.links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.links a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.links a:active {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.links a:focus {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.links a:visited {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.hero {
+    width: 80%;
+    height: 450px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    border: 1px solid #fff;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    height: 200px;
+    border: 1px solid #fff;
+    color: #f9faf8;
+    margin-left: 10%;
+}
+
+.hero-content a {
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    background-color: #3882f6;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30%;
+    border: 1px solid #fff;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 250px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    margin-right: 30px;
+}
+
+.placeholder img {
+    width: 300px;
+    height: 200px;
 }
