@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #1f2937;
+    padding: 20px 0;
 }
 
 .menu {
@@ -21,15 +21,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1f2937;
-    border: 1px solid #fff;
+    background: #010001;
+    color: #f9faf8;
+    position: fixed;
+    top: 0;
 }
 
 .logo {
     display: flex;
-    width: 20%;
+    width: 30%;
     font-size: 18px;
-    color: #f9faf8;
     justify-content: center;
     align-items: center;
     margin-left: 5%;
@@ -55,71 +56,91 @@
 }
 
 .links a:hover {
-    color: #fff;
+    color: #d90c16;
     text-decoration: underline;
 }
 
-.links a:active {
-    color: #fff;
-    text-decoration: underline;
-}
-
-.links a:focus {
-    color: #fff;
-    text-decoration: underline;
-}
-
-.links a:visited {
-    color: #fff;
-    text-decoration: underline;
-}
-
-.hero {
+.hero-content-container {
     width: 80%;
     height: 450px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 40px;
-    border: 1px solid #fff;
+    margin-top: 60px;
 }
 
 .hero-content {
     display: flex;
+    color: #000;
     flex-direction: column;
     justify-content: center;
-    width: 30%;
-    height: 200px;
-    border: 1px solid #fff;
-    color: #f9faf8;
+    align-items: center;
+    width: 35%;
     margin-left: 10%;
 }
 
-.hero-content a {
-    text-decoration: none;
+.hero-content button {
     width: 100px;
-    height: 30px;
-    background-color: #3882f6;
-    color: #fff;
-    font-size: 18px;
-    text-align: center;
-    margin-top: 20px;
-    margin-left: 30%;
-    border: 1px solid #fff;
+    font-size: 20px;
+    background: #010001;
+    color: #f9faf8;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.hero-content button:hover {
+    color: #010001;
+    background: #f9faf8;
 }
 
 .placeholder {
+    width: 40%;
+    height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 250px;
-    background-color: #fff;
-    border: 1px solid #fff;
-    margin-right: 30px;
+    margin-right: 10%;
 }
 
 .placeholder img {
-    width: 300px;
+    width: 400px;
     height: 200px;
+}
+
+.main-character-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 1px solid #000;
+}
+
+.main-character {
+    width: 70%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    border: 1px solid #000;
+}
+
+.main-characters-item {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid #000;
+    border-radius: 5px; */
+}
+
+.main-characters-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
