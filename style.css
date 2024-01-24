@@ -8,7 +8,6 @@
 }
 
 body {
-    background: #F9FAFB;
     background-image: url(./images/tengen_bg\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,11 +24,11 @@ body {
 
 .menu {
     width: 100%;
-    height: 70px;
+    height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background: #232634; */
+    background-color: #232634;
     color: #f9f9f9;
 }
 
@@ -46,10 +45,18 @@ body {
     letter-spacing: 0.7px;
 }
 
+.logo h2:hover {
+    color: #dc143c;
+    transform: scale(1.0);
+}
+
 .logo img {
-    width: 58px;
-    height: 58px;
+    width: 48px;
+    height: 48px;
     transition: all .3s;
+    background-color: #dc143c;
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
 .logo img:hover {
@@ -72,7 +79,7 @@ body {
 }
 
 .links a:hover {
-    color: #f9faf8;
+    color: #dc143c;
     transform: scale(1.1);
 }
 
@@ -146,8 +153,8 @@ body {
 }
 
 .main-character-container {
-    width: 90%;
-    height: 50vh;
+    width: 100%;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,8 +162,8 @@ body {
     margin-top: 15%;
     background-color: #f9faf8;
     border: 0 solid #e5e7eb;
-    border-radius: 10px;
-    box-shadow: #010101 0px 0px 10px 0px;
+    /* border-radius: 10px;
+    box-shadow: #010101 0px 0px 10px 0px; */
 }
 
 .main-character-container h1 {
@@ -168,7 +175,7 @@ body {
 }
 
 .main-characters {
-    width: 90%;
+    width: 80%;
     height: 50%;
     display: flex;
     justify-content: center;
@@ -200,13 +207,13 @@ body {
 }
 
 .quote-container {
-    width: 95%;
-    height: 40vh;
+    width: 100%;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 10%;
+    background-color: #232634;
 }
 
 .quote {
@@ -217,10 +224,9 @@ body {
     align-items: center;
     flex-direction: column;
     font-size: 36px;
-    color: #f9f9f9;
-    box-shadow: #e5e7eb 0px 0px 10px 0px;
-    border: 0 solid #e5e7eb;
+    border: 0 solid #232634;
     border-radius: 10px;
+    color: #f9f9f9;
 }
 
 .quote q {
@@ -241,23 +247,20 @@ body {
 }
 
 .resume-container {
-    width: 90%;
-    height: 40vh;
+    width: 100%;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 10%;
     background-color: #f9faf8;
     border: 0 solid #e5e7eb;
-    border-radius: 10px;
-    box-shadow: #010101 0px 0px 10px 0px;
 }
 
 .resume-container h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     letter-spacing: 0.5px;
     text-transform: uppercase;
 }
@@ -276,31 +279,31 @@ body {
 }
 
 .ytb-video {
-    width: 900px;
-    height: 500px;
+    width: 100%;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 5%;
     background-color: #f9faf8;
+}
+
+.ytb-video-item {
     border: 0 solid #e5e7eb;
     border-radius: 10px;
     box-shadow: #010101 0px 0px 10px 0px;
+    width: 50%;
+    margin-bottom: 10%;
 }
 
 .footer {
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 10%;
     background-color: #232634;
-    border: 0 solid #e5e7eb;
-    border-radius: 10px;
-    box-shadow: #010101 0px 0px 10px 0px;
     color: #f9f9f9;
 }
 
@@ -309,3 +312,7 @@ body {
     font-size: 18px;
     transition: all .3s;
 }
+
+/* @media screen and (max-width: 768px) {
+    
+} */
