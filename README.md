@@ -1,6 +1,6 @@
 ## Project Landing Page from Odin Project
 
-This is a project from the Odin Project's [curriculum](https://www.theodinproject.com/lessons/foundations-recipes).
+This is a project from the Odin Project's [curriculum](https://www.theodinproject.com/lessons/foundations-landing-page).
 
 ## Built With
 
